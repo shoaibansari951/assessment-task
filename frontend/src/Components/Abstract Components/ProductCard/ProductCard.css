@@ -1,0 +1,35 @@
+.proCard {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1px;
+}
+.buttons button {
+    margin: 15px;
+    width: 100px;
+    background-color: white;
+    border:none;
+}
+.images {
+    display: flex;
+    justify-content: center;
+}
+.image {
+    margin-top: 10px;
+    align-items: center;
+    width:150px;
+    height:150px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

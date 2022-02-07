@@ -1,0 +1,11 @@
+.arrange {
+    padding-top: 10px;
+    justify-content: space-around;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }

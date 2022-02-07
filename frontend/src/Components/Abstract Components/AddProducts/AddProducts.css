@@ -1,0 +1,36 @@
+form
+{
+    margin:20px;
+}
+.container {
+    /* width: 500px; */
+    text-align: center;
+}
+.input {
+    margin-top: 15px;
+}
+.submit {
+    align-items: center ;
+    color: white;
+    background-color: black;
+    border-style: none;
+    height: 35px;
+    border-radius: 3px;
+}
+.input:focus {
+    box-shadow: none;
+}
+.messages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 47px;
+    background-color: #D4EDDA;
+    color: #155776;
+}
+.cancel {
+    margin-top: 6px;
+}
+.cancel:focus {
+    box-shadow: none;
+}
